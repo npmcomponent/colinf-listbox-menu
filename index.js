@@ -3,8 +3,8 @@
  * Module dependencies.
  */
 
-var $ = require('jquery')
-  , Menu = require('menu');
+var $ = require('component-jquery')
+  , Menu = require('component-menu');
 
 /**
  * Expose `ListboxMenu`.

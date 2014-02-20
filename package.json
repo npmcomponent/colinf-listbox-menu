@@ -1,15 +1,14 @@
 {
-  "name": "listbox-menu-component",
+  "name": "colinf-listbox-menu",
   "description": "Listbox Menu component",
-  "version": "0.0.1",
-  "keywords": ["listbox", "menu", "component"],
+  "version": "0.0.2",
+  "keywords": [
+    "listbox",
+    "menu",
+    "component"
+  ],
   "dependencies": {
-    "jquery-component": "*",
-    "menu-component": "*"
-  },
-  "component": {
-    "scripts": {
-      "listbox-menu": "index.js"
-    }
+    "component-jquery": "git://github.com/npmcomponent/component-jquery.git",
+    "component-menu": "git://github.com/npmcomponent/component-menu.git"
   }
 }
